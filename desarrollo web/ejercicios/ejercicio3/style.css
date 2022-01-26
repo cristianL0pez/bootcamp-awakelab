@@ -1,11 +1,16 @@
+
+
+
 footer {
     position: relative;
     width: 100%;
     height: 230px;
-    border: 1px dashed;
+    border: 1px none;
     overflow: hidden;
     position: fixed;
     bottom: 0;
+    cursor: url(img/iconmonstr-cursor-31.svg), auto;
+    
     
   }
   .contenedor {
@@ -27,7 +32,7 @@ footer {
     width: 200px;
     height: 25px;
     margin: 0 auto;
-    background: lightblue;
+    background: rgb(29, 158, 40);
   }
   .botonFooter > p {
     text-align: center;
@@ -35,7 +40,8 @@ footer {
   .footer {
     width: 100%;
     height: 200px;
-    background: lightblue;
+    background: rgb(29, 158, 40);
+    cursor: url("img/cursor-png-1120.png"), auto;
   }
   
   #imagen {
@@ -44,4 +50,8 @@ footer {
      display:block;
      margin:auto;
   }
+
+
+  
+
   
