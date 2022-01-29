@@ -39,6 +39,7 @@
   .footer {
     grid-area: footer;
     background-color: #8c96a0;
+    
   }
 
   .grid-container {
@@ -65,8 +66,12 @@ li {
     list-style: none;
     float: left;
     
-   
 }
+
+
+
+
+
 
 
 

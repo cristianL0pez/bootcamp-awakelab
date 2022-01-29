@@ -1,8 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png">
+    <title>contacto</title>
+</head>
 
+<body>
+    <header class="header">
+        <div id="icono">
+            <img src="img/cropped-favicon.png" alt="icono" width="50px" height="50px">
+        </div>
+        <nav id="navbar">
+            <ul>
+                <li><span class="separador">|</span><a id="link" href="index.html">Home</a></li>
+                <li><span class="separador">|</span><a id="link" href="productos.html">productos</a></li>
+                <li><span class="separador">|</span><a id="link" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
- 
+    <div class="form">
+        <form action="" method="post">
+            <ul>
+                <li>
+                    <label for="name">Nombre Completo:</label>
+                    <!-- type acepta text, email y password -->
+                    <input type="text" id="form-name" name="user_name" required="true" placeholder="name">
+                </li>
+                <li>
+                    <label for="mail">Correo electrónico: </label>
+                    <input type="email" id="form-mail" name="user_mail" required="true" placeholder="email">
+                </li>
+                <li>
+                    <label for="message">Mensaje:</label>
+                    <input type="text" id="form-message" name="message" required="true" placeholder="message">
+                </li>
+                <li class="button">
+                    <button type="submit">Enviar</button>
+                </li>
+            </ul>
+        </form>
+    </div>
+    <hr>
+    <footer class="footer">
+        <p>Todos los derechos reservados, version Copyright 2022 grupo4</p>
+        <nav>
+            <a href="#terminos">Terminos y Condiciones</a> |
+            <a href="#seguridad">Seguridad</a> |
+            <a href="#etica">Codigo de Etica</a>
+        </nav>
+    </footer>
+</body>
 
-
-
-
+</html>
