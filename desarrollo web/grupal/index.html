@@ -1,13 +1,4 @@
 <!DOCTYPE html>
-<!--
-    En el cuerpo de la página, distribuir en etiquetas semánticas apropiadas el menú, el contenido
-principal y el pie de página.
-• Dentro de la sección principal, deja el contenido existente en una sección independiente.
-• Agrega otra sección al contenedor principal. En dicha sección debes agregar una galería de
-imágenes. Los archivos para usar quedan a criterio del equipo.
-• Finalmente, agrega una página nueva llamada contacto.html, la cual debe tener un formulario que
-contenga el nombre de usuario, el correo, y el mensaje que se envía. No se pide una acción
-específica al formulario, solo que se establezcan adecuadamente las etiquetas del caso.-->
 <html lang="en">
 
 <head>
@@ -21,53 +12,134 @@ específica al formulario, solo que se establezcan adecuadamente las etiquetas d
 <body class="grid-container">
     <header class="header">
         <div id="icono">
-            <img src="img/cropped-favicon.png"
-                alt="icono" width="50px" height="50px">
+            <img src="img/cropped-favicon.png" alt="icono" width="50px" height="50px">
         </div>
         <nav id="navbar">
             <ul>
-                <li><span class="separador">|</span><a id="link" href="index.html">Home</a></li>
-                <li><span class="separador">|</span><a id="link" href="productos.html">productos</a></li>
+                <li><a id="link" href="index.html">Home</a></li>
+                <li><span class="separador">|</span> <a id="link" href="ubicacion.html">Ubicacion</a></li>
                 <li><span class="separador">|</span><a id="link" href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <div class="main">
+        <div id="sobre">
+            <h2 style="text-align: center;">Bienvenido a te lo compro Automotora</h2>
+            <p>En te lo compro, nuestro principal negocio es la asesoría y junto con esto, la venta y la compra de
+                autos. <br> Nuestra empresa ha crecido junto al mercado porque sabemos escuchar a nuestros clientes, y
+                estamos dispuestos a entregarles lo mejor.<br> Desde el año 2014 se han asesorado Clientes y hemos vendido
+                más de 1.000 autos. <br>Lo que nos ha consolidado como el Partner líder en asesoría automotriz en la región.
+                Nuestro lugar en el mercado automotriz está en la estrecha relación que nace de la confianza.<br></p>
+            
+        </div>
+        <div id="ubicacion"></div>
+        <hr>
+        <h2>Vehículos</h2>
         <div class="carrusel">
             <div class="product" id="product_0">
                 <img src="https://www.eluniverso.com/resizer/FkwWRQnqo9FLu0MGpX-WCESGbTs=/1024x510/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/E5VVGMAMSFBAFPK5V2BMNUMRVM.jpg"
                     width="195" height="100" />
-                <h5>Lorem ipsum 1</h5>
-                <p>100</p>
+                <h5>ABARTH 500 1.4 ATX AUTO</h5>
+                <p>$351,900</p>
             </div>
             <div class="product" id="product_1">
                 <img src="https://live.staticflickr.com/65535/50774804783_4c7007539b.jpg" width="195" height="100" />
-                <h5>Lorem ipsum 2</h5>
-                <p>100</p>
+                <h5>ACURA ILX 2.4 A-SPEC DCT</h5>
+                <p>$455,900</p>
             </div>
             <div class="product" id="product_2">
-                <img src="https://ca-times.brightspotcdn.com/dims4/default/70d5c69/2147483647/strip/true/crop/1200x740+0+0/resize/840x518!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F0c%2Fd5%2Fb66b92ab4db69706eb9a067f7dcd%2Fcorvete.jpg"
+                <img src="https://s1.1zoom.me/big0/158/Lamborghini_White_background_Yellow_Metallic_566962_1280x853.jpg"
                     width="195" height="100" />
-                <h5>Lorem ipsum 3</h5>
-                <p>250</p>
+                <h5>GIULIA 2.0 SPORT AUTO</h5>
+                <p>$444,900</p>
             </div>
             <div class="product" id="product_3">
-                <img src="https://www.latercera.com/resizer/I6XaWyhCokBSy1I1ebUbn2HWzbw=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/J4AHAHSFNRGX7MCO6653MOPEFA.jpg"
-                    width="195" height="100" />
-                <h5>Lorem ipsum 4</h5>
-                <p>75</p>
+                <img src="https://cdn.pixabay.com/photo/2019/12/12/18/20/car-4691363_960_720.jpg" width="195"
+                    height="100" />
+                <h5>A1 1.0 SB 30 TFSI COOL DCT</h5>
+                <p>$725,900</p>
             </div>
             <div class="product" id="product_4">
-                <img src="http://cdn2.dineroenimagen.com/media/dinero/styles/xlarge/public/images/2019/08/2-jeep-wrangler.jpg"
+                <img src="https://thumbs.dreamstime.com/b/coche-deportivo-del-cup%C3%A9-rojo-autom%C3%B3vil-gen%C3%A9rico-con-la-superficie-brillante-en-el-fondo-blanco-119880078.jpg"
                     width="195" height="100" />
-                <h5>Lorem ipsum 5</h5>
-                <p>65</p>
+                <h5>AUDI A4 2.0 45 TFSI S LINE DCT 4WD</h5>
+                <p>$200,700</p>
             </div>
             <div class="product" id="product_5">
-                <img src="https://img.autosblogmexico.com/2020/04/25/5rGAqJ9J/screen-shot-2020-04-24-at-23-59-48-713b.png"
+                <img src="https://s1.1zoom.me/b5050/513/Honda_Vezel_Modulo_2014_Blue_White_background_516232_1920x1080.jpg"
                     width="195" height="100" />
-                <h5>Lorem ipsum 6</h5>
-                <p>40</p>
+                <h5>BMW	SERIES 2 3.0 M2 COMPETITION DCT</h5>
+                <p>$424,900</p>
+            </div>
+            <div class="product" id="product_6">
+                <img src="https://us.123rf.com/450wm/algre/algre1905/algre190500008/121931714-coche-deportivo-rojo-sobre-fondo-blanco-.jpg?ver=6"
+                    width="195" height="100" />
+                <h5>BMW	SERIES 3 2.0 330IA M SPORT AUTO</h5>
+                <p>$225,000</p>
+            </div>
+            <div class="product" id="product_7">
+                <img src="https://us.123rf.com/450wm/rawpixel/rawpixel1409/rawpixel140901667/31306531-coche-rojo.jpg?ver=6"
+                    width="195" height="100" />
+                <h5>CADILLAC ATS 2.0 COUPE E AUTO</h5>
+                <p>$435,000</p>
+            </div>
+            <div class="product" id="product_8">
+                <img src="https://img.pixers.pics/pho_wat(s3:700/FO/45/59/78/37/700_FO45597837_c277f9e454458860d6afca6f20086f8e.jpg,700,467,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,417,jpg)/vinilos-coche-deportivo-de-lujo-en-el-fondo-blanco-3d-prestacion.jpg.jpg"
+                    width="195" height="100" />
+                <h5>KIA	OPTIMA 2.0 TURBO SXL AUTO</h5>
+                <p>$994,900</p>
+            </div>
+            <div class="product" id="product_9">
+                <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/210805-01-j-002-1628251687.jpg?crop=0.698xw:0.523xh;0.144xw,0.276xh&resize=640:*"
+                    width="195" height="100" />
+                <h5>CHEVROLET	BEAT 1.2 LTZ C</h5>
+                <p>$743,900</p>
+            </div>
+            <div class="product" id="product_10">
+                <img src="https://www.pngmart.com/files/4/Nissan-GT-R-PNG-File.png" width="195" height="100" />
+                <h5>FORD	EDGE 2.7 V6 ST AUTO 4WD</h5>
+                <p>$377,900</p>
+            </div>
+            <div class="product" id="product_11">
+                <img src="https://s1.1zoom.me/big0/212/Nissan_GT-R_Nismo_2019_R35_White_background_White_576817_1280x853.jpg"
+                    width="195" height="100" />
+                <h5>GMC	SIERRA 5.3 AT4 D CREW CAB AUTO 4WD</h5>
+                <p>$325,900</p>
+            </div>
+            <div class="product" id="product_12">
+                <img src="https://img2.freepng.es/20180202/ule/kisspng-nissan-gt-r-car-sport-utility-vehicle-nissan-muran-nissan-murano-car-5a75267e560fd7.9172580515176270063525.jpg"
+                    width="195" height="100" />
+                <h5>HYUNDAI	ACCENT 1.6 GL</h5>
+                <p>$1,674,900</p>
+            </div>
+            <div class="product" id="product_13">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-rfQTnG6YcnytK-1Kv1j0mjgncX_UKNrD8bABrBwJBLUqmreimIvI7CTjQHAKZO52g4U&usqp=CAU"
+                    width="195" height="100" />
+                <h5>INFINITI	QX50 2.0 ESSENTIAL AUTO</h5>
+                <p>$1,739,900</p>
+            </div>
+            <div class="product" id="product_14">
+                <img src="https://data.1freewallpapers.com/download/nissan-gt-r-red.jpg" width="195" height="100" />
+                <h5>AC	ESEI 2 42KWH AUTO</h5>
+                <p>$2,244,900</p>
+            </div>
+            <div class="product" id="product_15">
+                <img src="https://e7.pngegg.com/pngimages/124/300/png-clipart-2018-nissan-gt-r-premium-sports-car-2017-nissan-gt-r-premium-nissan-computer-wallpaper-car.png"
+                    width="195" height="100" />
+                <h5>JAC	FRISON T8 2.0 FRISON</h5>
+                <p>$311,900</p>
+            </div>
+            <div class="product" id="product_16">
+                <img src="https://acroadtrip.blob.core.windows.net/catalogo-imagenes/m/RT_V_73b42d0a65a143a3a2313c29cf33633f.jpg"
+                    width="195" height="100" />
+                <h5>JAGUAR F-TYPE 2.0 PS300 R-DYNAMIC AUTO</h5>
+                <p>$1,234,900</p>
+            </div>
+            <div class="product" id="product_17">
+                <img src="https://s1.1zoom.me/b4553/421/Renault_Captur_White_background_White_514995_3840x2400.jpg"
+                    width="195" height="100" />
+                <h5>AGUAR F-TYPE 3.0 P380 AUTO</h5>
+                <p>$1,539,900</p>
             </div>
         </div>
 

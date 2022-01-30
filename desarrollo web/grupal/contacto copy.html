@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="contacto.css">
     <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png">
     <title>contacto</title>
-</head>
+<script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
 
 <body>
     <header class="header">
@@ -17,12 +17,13 @@
         </div>
         <nav id="navbar">
             <ul>
-                <li><span class="separador">|</span><a id="link" href="index.html">Home</a></li>
+                <li><a id="link" href="index.html">Home</a></li>
                 <li><span class="separador">|</span><a id="link" href="productos.html">productos</a></li>
                 <li><span class="separador">|</span><a id="link" href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
+    <h2>contactanos!</h2>
 
     <div class="form">
         <form action="" method="post">
@@ -38,15 +39,16 @@
                 </li>
                 <li>
                     <label for="message">Mensaje:</label>
-                    <input type="text" id="form-message" name="message" required="true" placeholder="message">
-                </li>
-                <li class="button">
-                    <button type="submit">Enviar</button>
+                    <textarea id="contenido" name="comment" cols="40" rows="5">Ingresa aqui el mensaje...</textarea>
                 </li>
             </ul>
         </form>
+        <li class="button">
+            <button type="submit">Enviar</button>
+        </li>
     </div>
     <hr>
+
     <footer class="footer">
         <p>Todos los derechos reservados, version Copyright 2022 grupo4</p>
         <nav>
@@ -55,6 +57,6 @@
             <a href="#etica">Codigo de Etica</a>
         </nav>
     </footer>
-</body>
+
 
 </html>

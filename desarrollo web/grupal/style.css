@@ -26,7 +26,7 @@
   
   .header {
     grid-area: header;
-    background-color: #85aedd;
+    background-color: rgba(0,0,0,0.8995973389355743) 
 
 
   }
@@ -38,7 +38,8 @@
   
   .footer {
     grid-area: footer;
-    background-color: #8c96a0;
+    background-color: rgba(0,0,0,0.8995973389355743) ;
+    color: #fdfdfd;
     
   }
 
@@ -65,7 +66,45 @@ header {
 li {
     list-style: none;
     float: left;
+    color: #ffffff;
+    padding-right: 10px;
     
+}
+a{
+  color: #ffffff;
+}
+a:hover{
+  color: rgb(16, 139, 47);
+}
+
+/*conf de lista producto*/
+
+.product  {
+  width: 200px;
+  position: relative;
+  border: 1px black solid
+
+}
+.carrusel{
+  width:100%;
+  text-align: center;
+}
+
+img:hover{ 
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5)
+}
+
+#product_0,#product_1,#product_2,#product_3,#product_4,#product_5,#product_6,#product_7,#product_8,#product_9,#product_10,#product_11,#product_12,#product_13,#product_14,#product_15,#product_16,#product_17{
+  border: 1px solid rgb(255, 255, 255);
+  width: 200px;
+  height: 160px;
+  margin: 20px;
+  float: left;
+ }
+  
+.product:hover{
+  color: #1abb50;
 }
 
 

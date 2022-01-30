@@ -1,0 +1,86 @@
+body {
+    font-family: "Public Sans", sans-serif;
+    font-size: 1.2rem;
+    min-height: 100%;
+    }
+header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10%;
+        background-color:rgba(0,0,0,0.8995973389355743)  ;
+        box-shadow: 0px 0px 20px 0; 
+        height: 80px;     
+      }
+li {
+        list-style: none;
+        float: left;   
+        resize:none;  
+    }
+textarea{
+    resize: none;
+    border-radius:0em;
+}
+footer
+{
+    margin-top:50px;
+    width:100%;
+    height:80px;
+    background-color:#090979;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    border-radius: 1em;
+    background-color:rgba(0,0,0,0.8995973389355743)  ;
+}
+a{
+  color: rgb(255, 255, 255);
+}
+p{
+  color: #ffffff;
+}
+li {
+  list-style: none;
+  float: left;
+  color: #000000;
+  padding-right: 10px;
+  
+}
+
+
+/*Configuracion del Formulario
+*/
+
+
+.form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+  }
+  
+  .form button {
+    padding: 0.5em 1em;
+    border: none;
+    background: rgb(100, 200, 255);
+    cursor: pointer;
+
+  }
+
+  .form textarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:1em;
+    padding:1em;
+  }
