@@ -56,7 +56,7 @@
  /* header*/
 header {
   display: flex;
-  justify-content: space-between;
+  
   align-items: center;
   padding: 30px 10%;
   background-color: #030033;
@@ -102,6 +102,13 @@ img:hover{
 .product:hover{
   color: #1abb50;
 }
+.navbar-expand-lg{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.8995973389355743) ;
+  
+}
+ 
 
 
 
