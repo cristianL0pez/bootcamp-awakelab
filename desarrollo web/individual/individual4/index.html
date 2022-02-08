@@ -24,9 +24,12 @@ http://fancyapps.com/fancybox/3/.-->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div align="center">
+<div align:"center">
     <a class="fancybox" href="img/img1.jpg" data-fancybox-group="gallery" title="Imagen 1"><img  src="img/thumb-img1.jpg" alt="" /></a> 
-    
+    <a data-fancybox data-type="iframe" data-src="https://www.youtube.com/watch?v=dG6hU5IC3CA&ab_channel=BonfireVN" href="javascript:;">
+        Webpage
+    </a>
+    <p class="p">class</p>
 </div>
 <!--botones-->
 <br>
@@ -34,6 +37,7 @@ http://fancyapps.com/fancybox/3/.-->
 <div id="botones">
   
 </div>
+<button id="boton"></button>
 
 
 <script>
@@ -46,6 +50,20 @@ http://fancyapps.com/fancybox/3/.-->
 
 
 </script>
+<script>
+    $(document).ready(function(){
+		$("#mostrar").on( "click", function() {
+			$('#boton').show(); //muestro mediante id
+			
+		 });
+		$("#ocultar").on( "click", function() {
+			$('#boton').hide(); //oculto mediante id
+		});
+	});
+
+
+</script>
+
 
 	
   
