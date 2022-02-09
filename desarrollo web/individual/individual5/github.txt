@@ -1,1 +1,23 @@
 https://github.com/cristianL0pez
+
+Sitúese en la carpeta en la que desee crear el repositorio.
+- Cree una carpeta, y dentro de la misma un repositorio, ambos con el nombre
+fullstackpython
+- Genere una consulta que permite verificar el estado del repositorio
+- Cree un documento de texto de nombre contenidos.txt, que posea el siguiente
+contenido:
+Módulo 1: Programación en Python
+Módulo 2: Lenguaje de Consultas a una Base de Datos
+Módulo 3: Fundamentos de Desarrollo Web
+- Validar que el contenido ingresado esté efectivamente cargado. Verifique
+además el tamaño del archivo y sus permisos de acceso.
+- Añada el archivo al repositorio
+- Aplique los cambios realizados sobre el repositorio, usando como mensaje
+“Primera versión del temario subida a repositorio”
+- Añada una nueva línea al final del archivo, con el contenido “Módulo 2:
+Desarrollo de aplicaciones web dinámicas con Python”.
+- Verificar qué cambios existen en el repositorio que deban ser almacenados
+- Aplicar nuevamente los cambios en el repositorio, esta vez con el mensaje
+“Versión actualizada del contenido”
+- Ver el registro de cambios creados sobre el repositorio
+- Finalmente, validar el estado del repositorio
