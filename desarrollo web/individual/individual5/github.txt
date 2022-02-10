@@ -1,5 +1,4 @@
 https://github.com/cristianL0pez
-
 Sitúese en la carpeta en la que desee crear el repositorio.
 - Cree una carpeta, y dentro de la misma un repositorio, ambos con el nombre
 fullstackpython
@@ -21,3 +20,18 @@ Desarrollo de aplicaciones web dinámicas con Python”.
 “Versión actualizada del contenido”
 - Ver el registro de cambios creados sobre el repositorio
 - Finalmente, validar el estado del repositorio
+
+
+///////el texto de arriba es el ejercicio de git individual sigue las instrucciones de la guia desde aca ///////
+1. crea un archivo con tu nombre sin espacios en la carpeta  bootcamp-awakelab/desarrollo web/individual/individual5/tu_nombre
+2. dentro de esa carpeta has un archivo de texto con el siguiente contenido 
+contenido:
+Módulo 1: Programación en Python
+Módulo 2: Lenguaje de Consultas a una Base de Datos
+Módulo 3: Fundamentos de Desarrollo Web
+
+3. ahora haras un commit para guardar esos cambios que hiciste en la carpeta pero primero veremos el estado del repo con
+    1.git status
+    2.git add . (para que git trackee los cambios)
+    3.git commit -m "Primera versión del temario subida a repositorio"  (para agregar los cambios a tu repositorio local)
+    4. git status   (nuevamente para corrovorar que el commit guardo todos los cambios en nuestro repositorio git) 
