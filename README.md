@@ -2,7 +2,7 @@
 
 bootcamp python awakelab
 
-  
+
 
 repositorio para guardar codigo, trabajos, tareas etc
 ## desarrollo web
@@ -13,14 +13,13 @@ repositorio para guardar codigo, trabajos, tareas etc
  # 1. descarga visual studio desde la pagina oficial
 
 [pagina oficial visual studio code ](https://code.visualstudio.com/)
-
- [video para instalacion](https://www.youtube.com/watch?v=X_Z7d04x9-E&t=163s&ab_channel=Sistematts)
-  # 2. descarga python3 desde la pagina oficial
+[video para instalacion](https://www.youtube.com/watch?v=X_Z7d04x9-E&t=163s&ab_channel=Sistematts)
+# 2. descarga python3 desde la pagina oficial
 [pagina oficial de python](https://www.python.org/)
 ![enter image description here](https://www.codigonaranja.com/wp-content/uploads/2019/02/descargar-python.png)
 [video para instalacion](https://www.youtube.com/watch?v=m5i-Pq-z9w8&ab_channel=AlexRoelCode)
  
-==Muy importante antes de instalar marcar el botón "add python 3.1 to Path" esto es para que python pueda ser invocado desde cualquier ruta o carpeta, todo lo demás se deja por defecto.==
+<span style="color:red"> *Muy importante antes de instalar marcar el botón "add python 3.1 to Path" esto es para que python pueda ser invocado desde cualquier ruta o carpeta, todo lo demás se deja por defecto.*</span>
 ![enter image description here](https://docs.blender.org/manual/es/2.80/_images/about_contribute_install_windows_installer.png)
 ### Ahora comprobáremos si se instalo correctamente en consola
 ==windows==
