@@ -5,7 +5,7 @@ repositorio para guardar codigo, trabajos, tareas etc
 
 ### desarrollo web
    
-![](instalacio%CC%81n%20de%20recursos%20274ce89f7fc44944b985d08a70c43d2b/maxresdefault_(1)%201.jpg)🧑🏼‍💻
+![](https://1.bp.blogspot.com/-EW9IYLNiqDA/Wv4r4sOGveI/AAAAAAAABUg/lL0B1cIEfCkrVROQXiApi92D6brGMLUPQCLcBGAs/s1600/visual-studio-code.jpg)🧑🏼‍💻
 
 # instalación de recursos
 
