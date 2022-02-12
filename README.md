@@ -9,15 +9,9 @@ repositorio para guardar codigo, trabajos, tareas etc
 
 # instalación de recursos
 
-|  |
-| :---: |
-| Created | <time>@January 18, 2022 11:57 PM</time> |
-| Status |  |
-| pertenece a | [📚Fundamentos del Desarrollo Web](https://www.notion.so/Fundamentos-del-Desarrollo-Web-75aeaa9367144c9e956fd1490236def9) |
 
-* <details>**1. descarga visual studio desde la pagina oficial** [Gracias por descargar Visual Studio - Visual Studio Gracias por descargar Visual Studio - Visual Studio ![](https://visualstudio.microsoft.com/wp-content/uploads/2017/02/Microsoft-favicon.png) https://visualstudio.microsoft.com/es/thank-you-downloading-visual-studio/?sku=Community&rel=17![](https://visualstudio.microsoft.com/wp-content/uploads/2020/07/Facebook.png)](https://visualstudio.microsoft.com/es/thank-you-downloading-visual-studio/?sku=Community&rel=17) [https://www.youtube.com/watch?v=X_Z7d04x9-E&t=163s&ab_channel=Sistematts](https://www.youtube.com/watch?v=X_Z7d04x9-E&t=163s&ab_channel=Sistematts)
-
-***
+* <details>1. descarga visual studio desde la pagina oficial 
+   [![Alternate Text]({image-url})]({https://www.youtube.com/watch?v=X_Z7d04x9-E&t=163s&ab_channel=Sistematts} "Link Title")
 
 </details>
 
@@ -52,10 +46,11 @@ Python 3.8.3
   - Coordina el flujo de desarrollo cargando archivos `.env`.**¡Instala hoy Pipenv!** Si estas en MacOS, puedes instalar Pipenv fácilmente con Homebrew:
 
 ```
- brew install pipenv
+ O, si estás usando windows
 ```
+<mark>(powershell)</mark>: brew install pipenv
 
-O, si estás usando windows <mark>(powershell)</mark>:
+ 
 
 ```
  pip install pipenv
