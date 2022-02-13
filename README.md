@@ -1,11 +1,7 @@
 # bootcamp-awakelab
-
-bootcamp python awakelab
-
-
-
-repositorio para guardar codigo, trabajos, tareas etc
-## desarrollo web
+## Documentacion de bootcamp 
+## instalacion de recursos
+# desarrollo web
 
 ![](https://1.bp.blogspot.com/-EW9IYLNiqDA/Wv4r4sOGveI/AAAAAAAABUg/lL0B1cIEfCkrVROQXiApi92D6brGMLUPQCLcBGAs/s1600/visual-studio-code.jpg)🧑🏼‍💻
 
