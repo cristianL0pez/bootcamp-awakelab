@@ -18,9 +18,6 @@ En caso que no tengan instalado Word, pueden apoyarse en GoogleDocs.
 - El tiempo máximo para resolver la evaluación es el periodo correspondiente a una clase regular.
 - Equipos máximos de 4 integrantes.
 """
-from xml.dom import DomstringSizeErr
-
-
 productos=[['auto1',29],['auto2',117],['auto3',10],['auto4',300],['auto5',1000]]
 
 auto1=input('cuantos auto 1 quiere de 29 : ')
