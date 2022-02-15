@@ -41,6 +41,7 @@ tres = int(auto3)*tres
 cuatro=int(auto4)*cuatro
 cinco = int(auto5)*cinco
 resutadoNeto= uno+dos+tres+cuatro+cinco
+print(resutadoNeto)
 
 
 resultadoIva=resutadoNeto*119/100
