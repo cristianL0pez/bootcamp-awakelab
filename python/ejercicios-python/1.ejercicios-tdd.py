@@ -3,31 +3,7 @@
 """Ejercicio 1
 Escribir un programa que muestre por pantalla la cadena ¡Hola Mundo!."""
 
-print("pon <<python3 ejercicios-tdd.py>> para correr este archivo saludos ")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#print("¡Hola Mundo!.")
 
 
 
@@ -36,29 +12,8 @@ print("pon <<python3 ejercicios-tdd.py>> para correr este archivo saludos ")
 Escribir un programa que almacene la cadena ¡Hola Mundo! en una variable
  y luego muestre por pantalla el contenido de la variable."""
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#variable='¡Hola Mundo!.'
+#print(variable)
 
 
 
@@ -70,103 +25,35 @@ Escribir un programa que pregunte el nombre del usuario en la consola y después
 muestre por pantalla la cadena ¡Hola <nombre>!, donde <nombre> es el nombre que el usuario haya introducido.
 """
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#nombre=input('cual es tu nombre: ')
+#print('hola',nombre)
 
 
 
 """Ejercicio 4
-Escribir un programa que muestre por pantalla el resultado de la siguiente operación aritmética."""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Escribir un programa que muestre por pantalla el resultado de la siguiente operación aritmética.
+(3+2/2*5)**2"""
+#operacion=(3+2/2*5)**2
+#print(operacion)
 
 
 """Ejercicio 5
 Escribir un programa que pregunte al usuario por el número de horas trabajadas y el coste por hora. Después debe mostrar por pantalla la paga que le corresponde."""
 
+#cantHoras=input('cuantas horas has trabajado: ')
+#costHoras=input('cuanto valen tus horas: ')
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#operacion=int(cantHoras)*int(costHoras)
+#print('el pago que te corresponde es: ', operacion)
 
 
 """Ejercicio 6
 Escribir un programa que lea un entero positivo, , introducido por el usuario y después muestre en pantalla la suma de todos los enteros desde 1 hasta. 
-La suma de los  primeros enteros positivos puede ser calculada de la siguiente forma:"""
+La suma de los  primeros enteros positivos puede ser calculada de la siguiente forma:  n(n+1)/2 """
 
+n=input('escribe un entero positivo: ')
+operacion=n(n+1)/2
+print(operacion)
  
 
 
