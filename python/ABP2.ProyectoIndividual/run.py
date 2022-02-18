@@ -9,3 +9,24 @@ su nombre? ¿Cómo solucionarías este problema?
 ● Imprima en pantalla la cantidad usuarios que tiene tu aplicación.
 ● Imprima en pantalla un mensaje de saludo a los diferentes usuarios. ¿Qué técnica puedes utilizar
 para realizar esto?"""
+
+
+
+
+
+
+
+
+
+
+users='cristian,carlos,patricia,claudio,patricio,anibal'
+users=users.split(',')
+#users=['cristiancarlospatriciaclaudiopatricioanibal']
+nombre=input('busca un usuario: ')
+print('el total de usuarios es: ',len(users))
+for b in users:
+    if nombre==b:
+        print(b)
+
+for i in users:
+    print('hola',i)
