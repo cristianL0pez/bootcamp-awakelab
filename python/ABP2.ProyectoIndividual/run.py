@@ -21,7 +21,6 @@ para realizar esto?"""
 
 users='cristian,carlos,patricia,claudio,patricio,anibal'
 users=users.split(',')
-#users=['cristiancarlospatriciaclaudiopatricioanibal']
 nombre=input('busca un usuario: ')
 print('el total de usuarios es: ',len(users))
 for b in users:
