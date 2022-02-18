@@ -12,20 +12,15 @@ para realizar esto?"""
 
 
 
-
-
-
-
-
-
-
 users='cristian,carlos,patricia,claudio,patricio,anibal'
 users=users.split(',')
-nombre=input('busca un usuario: ')
+nombre=input('busca un usuario en mayuscula: ')
 print('el total de usuarios es: ',len(users))
 for b in users:
     if nombre==b:
-        print(b)
-
+       print(b)
+    else:
+        print('no se encontro el usuario')
+        break
 for i in users:
     print('hola',i)
