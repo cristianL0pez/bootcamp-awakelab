@@ -29,22 +29,39 @@ deportes).
  18 y 29 años =empleabilidad && mayor 60 años=actividades recreativas  menor 60 años=atletismo 
 
 '''
-#preguntas al usuario
-edad=int(input('edad: '))
-lugar=input('lugar de origen: ')
-afinidad=input('afinidad con los deportes: ')
-#cuestionarios
-cuestAlimen='hábitos alimenticios.'
-cuestEmple='empleabilidad'
-cuestExpLab='experiencia laboral'
-cuestActRec='actividades recreativas'
-cuestAtle='atletismo'
-#ifs para la solucion
-if lugar == 'latam' and edad == 30 and edad < 59:
-    print(cuestAlimen,cuestExpLab)
-elif edad == 18 or edad < 29:
-    print(cuestEmple)
+# preguntas al usuario
+from operator import truediv
+
+
+edad = int(input('edad: '))
+lugar = input('lugar de origen: ')
+afinidad = input('afinidad con los deportes si/no: ')
+# cuestionarios
+cuestAlimen = 'hábitos alimenticios.'
+cuestEmple = 'empleabilidad'
+cuestExpLab = 'experiencia laboral'
+cuestActRec = 'actividades recreativas'
+cuestAtle = 'atletismo'
+cuestNata = 'cuestionario de natación.'
+cuestDepor = 'cuestionario de deporte.'
+
+# ifs para la solucion
+if lugar == 'latam':
+    print(cuestAlimen)
+    if edad == 30 or edad < 59:
+        print(cuestExpLab)
+        if edad < 60:
+            print(cuestActRec)
+            if afinidad == 'yes' and edad < 60:
+                print(cuestNata)
+elif lugar != 'latam':
+    print(cuestAlimen)
+    if edad > 18 and edad < 29:
+        print(cuestEmple)
+        if edad < 60:
+            print(cuestAtle)
+elif afinidad == 'no':
+    print(cuestDepor)
+
 else:
-    print('todo bein')
-
-
+    print('los datos agragados estan mal pruebe nuevamente')
