@@ -24,3 +24,27 @@ Imprima en pantalla un listado que contenga los ID de los usuarios.
 Modifique todos los ID. Agregue la siguiente cadena de caracteres: “_piloto” al final de cada ID.
 Imprima en pantalla los nuevos ID.
 Elimine los últimos cuatro ID_clientes en el listado.'''
+
+'''clientes=[]
+productos=[]
+
+print('agregar clientes')
+client=input('nombre del cliente : ')
+clientes.append(client)
+    
+print('agregar clientes')
+product=input('nombre del producto : ')
+productos.append(product)
+    
+print('mostrar clientes : ')
+print(clientes)
+print('mostrar productos : ')
+print(productos)
+print('eliminar clientes : ')
+name=input('nombre del cliente : ')
+clientes.remove(name)
+
+print('eliminar productos')
+namep=input('nombre del producto : ')
+productos.remove(namep)'''
+
