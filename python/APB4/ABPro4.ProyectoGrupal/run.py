@@ -24,11 +24,11 @@ abast=150
 def aleatoreo(valor_inf,valor_sup):
     return random.randint(valor_inf,valor_sup)
 
-for i in range(1,20):
+for i in range(1,10):
     producto=aleatoreo(1,2)
     carrito=aleatoreo(10,20)
     if producto == 1:
-        time.sleep(3)
+        time.sleep(0.5)
         print('_______________________________')
         
         print('el stock del producto 1 es : ',producto1)
@@ -45,7 +45,7 @@ for i in range(1,20):
              
              
     else:
-        time.sleep(3)
+        time.sleep(0.5)
         print('_______________________________')
         
         print('el stock del producto 2 es : ',producto2)
