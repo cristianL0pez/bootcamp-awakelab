@@ -46,5 +46,32 @@ clientes.remove(name)
 
 print('eliminar productos')
 namep=input('nombre del producto : ')
-productos.remove(namep)'''
+productos.remove(namep)
+● Información de clientes: nombre, edad, identificador único.
+● Información de productos: nombre, precio, identificador único y color.
+● Información de la compra de cada cliente.'''
+
+#https://randomuser.me/documentation#howto documentacion api
+#https://fakestoreapi.com/docs
+
+
+import requests
+import json 
+
+URL ='https://randomuser.me/api/?results=10,name,nat'
+data = requests.get(URL)
+data = data.json()
+usuario = data
+
+print(usuario)
+
+
+
+
+
+
+
+
+
+
 
