@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 inquirer = "*"
 requests = "*"
+randomuser = "*"
 
 [dev-packages]
 
