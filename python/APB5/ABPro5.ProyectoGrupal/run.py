@@ -70,7 +70,7 @@ for user in users:
     
 
 ######################################################################
-#agregando bmostrando y borrando
+#agregando mostrando y borrando
 opcion = answers['size']
 oadd1='1. Agregar Cliente'
 oadd2='2. Agregar Producto'
