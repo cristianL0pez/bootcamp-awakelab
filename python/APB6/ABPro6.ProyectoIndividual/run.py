@@ -32,10 +32,6 @@ questions = [
 ]
 
 
-
-    
-
-
 users = []
 pedir = '1. Agregar Cliente'
 pedir2 = '2. imprima con desface'
@@ -68,10 +64,6 @@ def validador(edad, mat = False ):
     return edad
        
           
-        
-
-
-
 def main():
     opcion = ''
     while opcion != pedir3:
@@ -83,9 +75,6 @@ def main():
         elif opcion == pedir2:
             imprima_desface(users)
            
-
-
-
 main()
     
 

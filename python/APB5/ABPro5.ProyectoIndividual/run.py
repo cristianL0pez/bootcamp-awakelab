@@ -51,7 +51,7 @@ url = 'https://randomuser.me/api/?results=7&inc=name,dob,id,location,phone,regis
 data =  requests.get(url)                                     #request generica 
 users = data.json()['results']                                #tranformo data en json
 ####################################################################
-#creo la lista clients y vacia
+#creo la lista usuarios y vacia
 jjvv = []                                                
 for user in users:
     name = f"{user['name']['first']} {user['name']['last']}"
