@@ -14,8 +14,8 @@ preguntando por nombre y contraseña.
 Este loop podrá ser terminado sólo ingresando ‘salir’. Al momento de terminar, el programa debe imprimir
 en pantalla la variable completa de datos hasta el momento de recibir la instrucción ‘salir’.'''
 import re
+from time import sleep
 import inquirer  # noqa
-import time
 import os
 import sys
 from pprint import pprint
@@ -41,12 +41,16 @@ def add_user():
     nombre = input('ingrese su nombre: ')
     clave = input('ingrese su password: ')
     edad = input('ingrese su edad (solo numeros enteros): ')
-    edad = validador(exp_reg(edad),edad)
+    edad = (exp_reg(edad))
     users.append({'name': nombre,'clave':clave,'edad':edad})
     return users, edad
 
-def imprima_desface(users):
+def imprima_desface():
+    print('________________________________')
+    sleep(2)
     print(users)
+    sleep(2)
+    print('________________________________')
     return users
 
 def exp_reg(edad):
@@ -55,13 +59,6 @@ def exp_reg(edad):
     mat = re.search(pat, edad)
     return mat
 
-
-def validador(edad, mat = False ):
-    while mat == False:
-        print('la edad debe ser un numero')
-        edad = input('ingresa la edad nuevamente: ')
-        mat = exp_reg(edad)
-    return edad
        
           
 def main():
@@ -73,7 +70,7 @@ def main():
             print(users)    
         
         elif opcion == pedir2:
-            imprima_desface(users)
+            imprima_desface()
            
 main()
     
