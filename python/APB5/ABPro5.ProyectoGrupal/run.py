@@ -49,7 +49,7 @@ answers = inquirer.prompt(questions)
 pprint(answers)
 
 #https://randomuser.me/documentation#howto documentacion api
-#https://fakestoreapi.com/docs
+
 
 url = 'https://randomuser.me/api/?results=10&inc=name,dob,id' #url de la api
 data =  requests.get(url)                                     #request generica 
@@ -63,7 +63,6 @@ for user in users:
     age = user['dob']['age']
     id1 = uuid.uuid4()
     id1 = str(id1)
-    
     clients.append({'name': name, 'age': age, 'id': id1})
 
 

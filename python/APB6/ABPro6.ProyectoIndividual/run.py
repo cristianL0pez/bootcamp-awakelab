@@ -27,40 +27,41 @@ questions = [
     inquirer.List(
         "size",
         message="elija una opcion",
-        choices=["1. Agregar Cliente","2. imprima con desface", "3. salir"],
+        choices=["1. Agregar Cliente","2. imprima con desfase", "3. salir"],
     ),
 ]
 
 
 users = []
 pedir = '1. Agregar Cliente'
-pedir2 = '2. imprima con desface'
+pedir2 = '2. imprima con desfase'
 pedir3 = '3. salir'
 
 def add_user():
     nombre = input('ingrese su nombre: ')
     clave = input('ingrese su password: ')
     edad = input('ingrese su edad (solo numeros enteros): ')
-    edad = (exp_reg(edad))
+    edad = (validador(edad))
     users.append({'name': nombre,'clave':clave,'edad':edad})
     return users, edad
 
-def imprima_desface():
-    print('________________________________')
-    sleep(2)
-    print(users)
-    sleep(2)
-    print('________________________________')
-    return users
+        
 
-def exp_reg(edad):
+
+def validador(edad): 
+    edad 
+    print(edad)
     reg = "^\d*$"
     pat = re.compile(reg) 
     mat = re.search(pat, edad)
-    return mat
+    if mat: 
+        print("La edad es valida.") 
+    else: 
+        print("la edad no es un numero !!")
 
-       
-          
+        
+
+
 def main():
     opcion = ''
     while opcion != pedir3:
@@ -70,7 +71,12 @@ def main():
             print(users)    
         
         elif opcion == pedir2:
-            imprima_desface()
+            for user in users:
+                print('________________________________')
+                sleep(2)
+                print(user)
+                print('________________________________')
+        
            
 main()
     

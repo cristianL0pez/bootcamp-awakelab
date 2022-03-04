@@ -10,8 +10,7 @@ Nuestro programa deberá tener las siguientes funciones:
 - Mostrar y retornar las unidades disponibles por producto.
 - Mostrar y retornar las unidades disponibles de un producto en particular.
 - Mostrar y retornar todos los productos de la tienda.
-- Mostrar y retornar los productos que tienen más de un número de unidades (el usuario puede
-escoger el número de unidades).
+- M).
 ###Control de Ventas
 Nuestro programa deberá tener las siguientes funciones:
 - mostrar y retornar el número de clientes registrados en la tienda.
@@ -86,41 +85,80 @@ menu_ventas = [
 #                                                                                                                    #
 ###################################################################################################################### 
 
-#productos={'ZAPATILLAS':20,'POLERAS':10,'ZAPATOS':15,'POLERÓN':3,'CHAQUETA':5,'GUANTES':4,}
+productos=[{
+    '_id':'ea4ead69-4f0f-ee54-80ee-b0f17eff4136',
+    'NOMBRE':'ZAPATILLAS',
+    'CANTIDAD':20
+          },
+          {
+    '_id':'ea4ead69-4f0f-ee54-43423-b0f17eff4136',
+    'NOMBRE':'POLERAS',
+    'CANTIDAD':10
+         },
+         {
+    '_id':'ea4ead69-4f0f-fsf44-80ee-b0f17eff4136',
+    'NOMBRE':'ZAPATOS',
+    'CANTIDAD':15
+        },
+        {
+    '_id':'ea4ead69-4f0f-efsfd-80ee-b0f17eff4136',
+    'NOMBRE':'POLERÓN',
+    'CANTIDAD':3
+        },
+        {
+    '_id':'ea4ead69-4f0f-effff4-80ee-b0f17eff4136',
+    'NOMBRE':'CHAQUETA',
+    'CANTIDAD':5
+    },
+    {
+    '_id':'ea4fdd69-4f0f-esdfs4-80ee-b0f17eff4136',
+    'NOMBRE':'GUANTES',
+    'CANTIDAD':4
+    
+}]
 
-productos={'ZAPATILLAS':20,'POLERAS':10,'ZAPATOS':15,'POLERÓN':3,'CHAQUETA':5,'GUANTES':4,}
+
 def agregar_productos():
-    key=input('ingrese el producto: ')
-    value= int(input('ingrese la cantidad de producto: '))
+    nombre=input('ingrese el producto: ').upper()
+    cantidad = int(input('ingrese la cantidad de producto: '))
     id = uuid.uuid4()
-    id = str(id1)
-    productos.update({key: value})
+    id = str(id)
+    productos.append({'_id':id,'NOMBRE':nombre,'CANTIDAD':cantidad})
+    print('se a ingresado el siguiente producto')
+    print(productos[-1])
+    
 
-def actualizar_stock(key, unidades_venta):
-    productos[key] -= unidades_venta
-
+def actualizar_stock():
+    pass
+        
 
 def mostrar_productos():
-    for key,value in productos.item():
-        print(f'tenemos {value} unidades del {key}')
+    #muestra por consola los productos y su stock disponible
+    for producto in productos:
+        print('el producto: ',producto['NOMBRE'],'tiene ',producto['CANTIDAD'],'unidades')
+    
 
 
-def mostrar_productos(key):
-    for key, value in productos.item():
-        if key == productos.upper():
-            print(key, value)
+def mostrar_producto_particular():
+    #busca un producto en especifico en la DATA segun el argumento y los muestra 
+    produc_particular = input('ingrese el nombre del producto para el que quiere saber su cantidad: ').upper()
+    for producto in productos:
+        if producto == produc_particular:
+            print('el producto ingresado tiene: ',producto['CANTIDAD'])
 
-def mostrar_todos_productos():
-    for key in productos.keys():
-        print(f'tenemos disponibles {key}')
+def mostrar_solo_productos():
+    #muestra todos los productos
+    for producto in productos:
+        print('Tenemos disponibles: ',producto['NOMBRE'])
 
 
 def mostrar_producto_condicional():
     #muestra los producto que cumplen con la condicion de stock
     unidades = int(input('Indique el numero de unidades y le diremos los productos que tienen ese stock: '))
-    for key, value in productos.items():
-        if value > unidades:
-            print(f'Tenemos {value} unidades/pares del {key}')
+    for producto in productos:
+        if producto['CANTIDAD'] > unidades:
+            print(f'Tenemos', producto['CANTIDAD'],'unidades/pares del', producto['NOMBRE'])
+
 
 
 ######################################################################################################################
@@ -145,9 +183,6 @@ for user in users:
     clientes.append({'name': name, 'age': age, 'id': id1,'street':direccion,'phone': telefono,'date':registrado})
      
 
-
-
-
 def add_user():
     nombre = input('ingrese su nombre: ')
     clave = input('ingrese su password: ')
@@ -167,12 +202,26 @@ def mostrar_clientes():
 
 # Funcionalidad para solicitar compra. Se ingresa el id del cliente, id del producto a comprar y las
 # unidades a comprar
-def solicitar_compra(id_producto=1):
-    input('__________solicitar compra_____________')
+def solicitar_compra():
+    print('__________solicitar compra_____________')
     id_client = input('ingrese el id del cliente: ')
     id_producto = int(input('ingrese el id del producto que quiere comprar: '))
     unidades = input('ingrese cantidad de productos: ')
+    soli_compra = input('desea solicitar la compra? (si/no): ')
+    if soli_compra == 'si':
+        for producto in productos:
+            if producto['CANTIDAD'] == 0:
+                print('la cantidad del stock es 0')
+                print('compra cancelada')
+            elif producto['CANTIDAD'] > 0:
+                print(f'Tenemos', producto['CANTIDAD'])
+                print('“Compra aprobada y en camino')
+    else:
+        print('compra cancelada')
+        
+
     return id_client, id_producto, unidades
+    #print(f'Tenemos', producto['CANTIDAD'],'unidades/pares del', producto['NOMBRE'])
     
 
     
@@ -182,28 +231,19 @@ def solicitar_compra(id_producto=1):
 
 def verifica_stock():
     pass
+    
 
 
 # Funcionalidad que autoriza la compra. No es necesario que actualicen el stock de la bodega
 # virtual.
-
 def autorizar_compra():
     pass
 
 
 
-
-# Imprimir y retornar un mensaje “Compra aprobada y en camino” en caso que exista el stock
-# necesario.
-def mensaje_aprobacion():
-    pass
-
-
-
-
+# Imprimir y retornar un mensaje “Compra aprobada y en camino” en caso que exista el stock necesario
 # Imprimir y retornar un mensaje “Compra cancelada” en caso que no exista el stock necesario.
-def mensaje_calcelacion():
-    pass
+
  
 opcion1 = '1. Control de Bodega'
 opcion2 = '2. Control de Ventas'
@@ -235,12 +275,12 @@ def main():
              bodega_ = inquirer.prompt(menu_bodega)['bodega']
              if bodega_ == opcion_bodega1:
                  agregar_productos()
-             elif bodega_ == opcion_bodega2:
+             elif bodega_ == opcion_bodega2:               
                  actualizar_stock() 
              elif bodega_ == opcion_bodega3:
                  mostrar_productos()
              elif bodega_ == opcion_bodega4:
-                 mostrar_todos_productos()
+                 mostrar_solo_productos()
              elif bodega_ == opcion_bodega5:
                  mostrar_producto_condicional()
              elif bodega_ == opcion_bodega6:
