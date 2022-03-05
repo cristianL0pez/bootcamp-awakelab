@@ -129,7 +129,7 @@ def agregar_productos():
     
 
 def actualizar_stock():
-    pass
+    print('stock actualizado')
         
 
 def mostrar_productos():
