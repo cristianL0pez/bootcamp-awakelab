@@ -14,3 +14,5 @@ enviar solicitudes de información adicional.
 Piensen en una forma de graficar las relaciones entre las diferentes clases, puede ser un diagrama o
 gráfica. Desarrollen el ejercicio de forma intuitiva.
 '''
+#diagrama uml para clases
+#https://lucid.app/lucidchart/f51fcaa5-5fce-4e1e-9af5-25ba435b1f71/edit?invitationId=inv_2f85c63b-4007-4248-b5b0-cbff33bc5055
