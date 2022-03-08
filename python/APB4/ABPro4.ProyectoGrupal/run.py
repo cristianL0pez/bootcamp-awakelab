@@ -60,7 +60,7 @@ for i in range(1,10):
             print('el abastecimiento en 0')
         
         
-        
+        asdsa ="asdajskd".join()
         
 
 

@@ -1,9 +1,12 @@
-class Producto:
+class Bodegero:
 
-    def __init__(self,_id,nombre,cantidad ) -> None:
+    def __init__(self,_id,nombre,rol,sueldo) -> None:
         self._id = _id
         self.nombre = nombre
-        self.cantidad = cantidad
+        self.rol = rol
+        self.sueldo = sueldo
+
+
 
     def agregar_producto():
         print('agregar_producto')
@@ -11,7 +14,7 @@ class Producto:
     def sumar_producto():
         print('sumar_producto')
         pass
-    def mostrar_producto():
+    def mostrar_productos():
         print('mostrar_producto')
 
 

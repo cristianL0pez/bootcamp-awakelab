@@ -16,3 +16,53 @@ gráfica. Desarrollen el ejercicio de forma intuitiva.
 '''
 #diagrama uml para clases
 #https://lucid.app/lucidchart/f51fcaa5-5fce-4e1e-9af5-25ba435b1f71/edit?invitationId=inv_2f85c63b-4007-4248-b5b0-cbff33bc5055
+''' 
+
+        Clientes
+        atributos
+    +_id : string {id}
+    +nombre : string
+    +edad : int
+    +direccion: string
+    +telefono: int
+    +registrado: bool
+
+    Metodos
+    agregar_usuario()
+    validar_edad()
+    carrito_compra()
+    comprar_producto()
+    debolucio_producto()
+    '''
+
+''' 
+
+        Bodegero
+        atributos
+    +_id : string{_id}
+    +nombre : string
+    +rol : string
+    +sueldo: string
+
+        Metodos
+    agregar_producto():
+    sumar_producto():
+    mostrar_productos():
+     
+
+
+
+''' 
+'''
+        Vendedor
+       atributos
+    +_id : string{_id}
+    +nombre : string
+    +sucursal:string
+        metodos
+    descontar_productos():
+    descuentos_productos():
+    guardar_clientes():
+        
+
+'''
