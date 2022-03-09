@@ -38,7 +38,6 @@ Desarrollar 5 instancias de cada clase creada en los puntos anteriores.
 Piensen en una forma de graficar las relaciones entre la
 
 '''
-
 from menus import * 
 from Clientes import *
 from Vendedor import *
@@ -57,7 +56,7 @@ for user in users:
     correo = user['email']
     saldo = 0
     registrado = user['registered']['date']
-    id = uuid.uuid4()[8:max]
+    id = uuid.uuid4()
     id = str(id)
     clientes.append({'id': id,'name': name,'email':correo ,'date':registrado,'saldo':saldo})
 
