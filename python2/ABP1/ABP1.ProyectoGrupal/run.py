@@ -38,34 +38,87 @@ Desarrollar 5 instancias de cada clase creada en los puntos anteriores.
 Piensen en una forma de graficar las relaciones entre la
 
 '''
-import menus
+
+from menus import * 
 from Clientes import *
 from Vendedor import *
 from Productos import *
+import uuid
+import requests
+
+url = 'https://randomuser.me/api/?results=5&inc=name,dob,id,location,email,registered' #url de la api
+data =  requests.get(url)                                     #request generica 
+users = data.json()['results'] 
 
 
+clientes=[] 
+for user in users:
+    name = f"{user['name']['first']} {user['name']['last']}"
+    correo = user['email']
+    saldo = 0
+    registrado = user['registered']['date']
+    id1 = uuid.uuid4()
+    id1 = str(id1)
+    clientes.append({'id': id1,'name': name,'email':correo ,'date':registrado,'saldo':saldo})
 
 
-valor_opcion=lambda funcion, nombre: funcion[nombre]
 
 
 def main():
-    opc=''
-    while opc != '4.Salir':
-        opc = valor_opcion(menus.menu_principal(),'menu')
-        print(opc)    
-        if opc =='1.Clientes':
-            opc = valor_opcion(menus.menu_cliente(),'menu_client')
-        elif opc=='2.Productos':
-            opc = valor_opcion(menus.menu_producto(),'menu_producto')
-        elif opc=='3.Vendedores':
-            opc = valor_opcion(menus.menu_vendedores(),'menu_vendedores')
-        else:
-            menus.pause()
+    for user in users:
+        c = Clientes(id1, name,correo ,registrado,saldo)
+        
+        
+    
+    opcion = ''
+    while opcion != opcion4:
+        opcion = inquirer.prompt(menu_principal)['menu']
+        if opcion == opcion1:
+             cliente_ = inquirer.prompt(menu_cliente)['cliente']
+             if cliente_ == opcion_cliente1:
+                
+                 c.mostrar_clientes()
+
+             elif cliente_ == opcion_cliente2:               
+                 print('2. agregar_saldo') 
+             elif cliente_ == opcion_cliente3:
+                 print('3. salir')
+                 inquirer.prompt(menu_principal)['menu']
+             
+
+        elif opcion == opcion2:
+            productos_ = inquirer.prompt(menu_producto)['productos']
+            if productos_ == opcion_producto1:
+                pass
+            elif productos_ == opcion_producto2:
+                pass 
+            elif productos_== opcion_producto3:
+                pass  
+            elif productos_ == opcion_producto4:
+                 inquirer.prompt(menu_principal)['menu']
+
+
+        elif opcion == opcion3:
+            vendedor_ = inquirer.prompt(menu_vendedor)['vendedor']
+            if vendedor_ == opcion_vendedor1:
+                pass 
+            if vendedor_ == opcion_vendedor2:
+                pass 
+            if vendedor_ == opcion_vendedor3:
+                pass 
+            if vendedor_ == opcion_vendedor4:
+                inquirer.prompt(menu_principal)['menu']
+                
+ 
+                
+                 
+            
+                 
+main()
 
         
 
 
    
     
-main()
+
