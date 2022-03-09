@@ -8,14 +8,9 @@ class Clientes:
         self.__Saldo = __Saldo
        
 
-    
-        
-
-
     def mostrar_saldo(self):
         print('el saldo es: ')
 
-   
     def agregar_saldo(self):
         print('saldo agregado')
     

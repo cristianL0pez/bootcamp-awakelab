@@ -57,19 +57,17 @@ for user in users:
     correo = user['email']
     saldo = 0
     registrado = user['registered']['date']
-    id1 = uuid.uuid4()
-    id1 = str(id1)
-    clientes.append({'id': id1,'name': name,'email':correo ,'date':registrado,'saldo':saldo})
+    id = uuid.uuid4()[8:max]
+    id = str(id)
+    clientes.append({'id': id,'name': name,'email':correo ,'date':registrado,'saldo':saldo})
 
 
 
 
 def main():
     for user in users:
-        c = Clientes(id1, name,correo ,registrado,saldo)
-        
-        
-    
+        c = Clientes(id,name,correo,registrado,saldo)
+
     opcion = ''
     while opcion != opcion4:
         opcion = inquirer.prompt(menu_principal)['menu']
@@ -78,7 +76,6 @@ def main():
              if cliente_ == opcion_cliente1:
                 
                  c.mostrar_clientes()
-
              elif cliente_ == opcion_cliente2:               
                  print('2. agregar_saldo') 
              elif cliente_ == opcion_cliente3:
