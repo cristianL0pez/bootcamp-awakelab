@@ -14,7 +14,7 @@ def opt_value(value, name='opcion'):
 
 
 def run():
-    # funcion principal
+    
     clients_db = users.get()
     clients = Clients()
     if clients_db:

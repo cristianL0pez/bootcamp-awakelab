@@ -40,19 +40,18 @@ opcion2 = '2. productos'
 opcion3 = '3. vendedor'
 opcion4 = '4. salir'
 ###########################################
-opcion_cliente1 = '1. mostrar saldo' 
-opcion_cliente2 = '2. agregar_saldo'
+opcion_cliente1 = '1. ingresar cliente' 
+opcion_cliente2 = '2. mostrar clientes'
 opcion_cliente3 = '3. salir'
 ##########################################
-opcion_vendedor1 = '1. descontar productos'
-opcion_vendedor2 = '2. descuentos_productos'
-opcion_vendedor3 = '3. guardar clientes'
-opcion_vendedor4 = '4. salir'
+opcion_vendedor1 = '1. agregar vendedor'
+opcion_vendedor2 = '2. mostrar vendedores'
+opcion_vendedor3 = '3. salir'
 ############################################
-opcion_producto1 = '1. agregar_producto'
-opcion_producto2 = '2. sumar_producto'
-opcion_producto3 = '3. mostrar_productos'
-opcion_producto4 = '4. salir'
+opcion_producto1 = '1. agregar producto'
+opcion_producto2 = '2. mostrar productos'
+opcion_producto3 = '3. salir'
+
 
 
 
@@ -68,14 +67,14 @@ menu_cliente = [
     inquirer.List(
         "cliente",
         message="elija una opcion",
-        choices=["1. mostrar saldo","2. agregar_saldo","3. salir"],
+        choices=["1. ingresar cliente","2. mostrar clientes","3. salir"],
     ),
 ]
 menu_vendedor = [
     inquirer.List(
         "vendedor",
         message="elija una opcion",
-        choices=["1. descontar productos","2. descuentos_productos","3. guardar clientes","4. salir"],
+        choices=["1. agregar vendedor","2. mostrar vendedores","3. salir"],
     ),
 
 ]
@@ -83,7 +82,7 @@ menu_producto = [
     inquirer.List(
         "producto",
         message="elija una opcion",
-        choices=["1. agregar_producto","2. sumar_producto","3. mostrar_productos","4. salir"],
+        choices=["1. agregar producto","2. mostrar productos","3. salir"],
     ),
     
 ]
