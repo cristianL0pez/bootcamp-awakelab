@@ -38,7 +38,8 @@ def menu_principal():
 opcion1 = '1. clientes'
 opcion2 = '2. productos'
 opcion3 = '3. vendedor'
-opcion4 = '4. salir'
+opcion4 = '4. proveedor'
+opcion5 = '5. salir'
 ###########################################
 opcion_cliente1 = '1. ingresar cliente' 
 opcion_cliente2 = '2. mostrar clientes'
@@ -51,6 +52,11 @@ opcion_vendedor3 = '3. salir'
 opcion_producto1 = '1. agregar producto'
 opcion_producto2 = '2. mostrar productos'
 opcion_producto3 = '3. salir'
+############################################
+opcion_proveedor1 = '1. agregar proveedor'
+opcion_proveedor2 = '2. mostrar proveedor'
+opcion_proveedor3 = '3. salir'
+
 
 
 
@@ -83,6 +89,14 @@ menu_producto = [
         "producto",
         message="elija una opcion",
         choices=["1. agregar producto","2. mostrar productos","3. salir"],
+    ),
+    
+]
+menu_proveedor = [
+    inquirer.List(
+        "proveedores",
+        message="elija una opcion",
+        choices=["1. agregar proveedor","2. mostrar proveedor","3. salir"],
     ),
     
 ]

@@ -75,7 +75,17 @@ def main():
                 mostrar_lista_vendedor()
             if vendedor_ == opcion_vendedor3:
                 inquirer.prompt(menu_principal)['menu']
-                
+        elif opcion == opcion4:
+            proveedor_ = inquirer.prompt(menu_proveedor)['proveedor']
+            if proveedor_ == opcion_proveedor1:
+                pedir_datos_vendedor()
+            if vendedor_ == opcion_proveedor2:
+                mostrar_lista_vendedor()
+            if vendedor_ == opcion_proveedor3:
+                inquirer.prompt(menu_principal)['menu'] 
+        else:
+            break
+
  
                 
                  
