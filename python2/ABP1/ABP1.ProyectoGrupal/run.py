@@ -38,17 +38,17 @@ Desarrollar 5 instancias de cada clase creada en los puntos anteriores.
 Piensen en una forma de graficar las relaciones entre la
 
 '''
-from controler.controler import *
-from controler.menus import * 
+from controller.controller import *
+from controller.menus import * 
 from classes.Cliente import *
 from classes.Productos import *
 from classes.Vendedor import *
 import uuid
-import requests
 
-def main():    
+
+def main():  ##menu  
     opcion = ''
-    while opcion != opcion4:
+    while opcion != opcion5:
         opcion = inquirer.prompt(menu_principal)['menu']
         if opcion == opcion1:
              cliente_ = inquirer.prompt(menu_cliente)['cliente']
@@ -57,8 +57,8 @@ def main():
              elif cliente_ == opcion_cliente2:               
                  mostrar_lista_clientes()
              elif cliente_ == opcion_cliente3:
-                 print('3. salir')
-                 inquirer.prompt(menu_principal)['menu']
+                 print('regresaras al menu principal')
+                 
         elif opcion == opcion2:
             productos_ = inquirer.prompt(menu_producto)['producto']
             if productos_ == opcion_producto1:
@@ -66,25 +66,26 @@ def main():
             elif productos_ == opcion_producto2:
                  mostrar_lista_producto()   
             elif productos_ == opcion_producto3:
-                 inquirer.prompt(menu_principal)['menu']
+                print('regresaras al menu principal')
         elif opcion == opcion3:
             vendedor_ = inquirer.prompt(menu_vendedor)['vendedor']
             if vendedor_ == opcion_vendedor1:
                 pedir_datos_vendedor()
-            if vendedor_ == opcion_vendedor2:
+            elif vendedor_ == opcion_vendedor2:
                 mostrar_lista_vendedor()
             if vendedor_ == opcion_vendedor3:
-                inquirer.prompt(menu_principal)['menu']
+                print('regresaras al menu principal')
         elif opcion == opcion4:
-            proveedor_ = inquirer.prompt(menu_proveedor)['proveedor']
+            proveedor_ = inquirer.prompt(menu_proveedor)['proveedores']
             if proveedor_ == opcion_proveedor1:
-                pedir_datos_vendedor()
-            if vendedor_ == opcion_proveedor2:
-                mostrar_lista_vendedor()
-            if vendedor_ == opcion_proveedor3:
-                inquirer.prompt(menu_principal)['menu'] 
-        else:
-            break
+                pedir_datos_proveedor()
+            elif proveedor_ == opcion_proveedor2:
+                mostrar_lista_proveedor()
+            elif proveedor_ == opcion_proveedor3:
+                 print('regresaras al menu principal')
+                 
+   
+            
 
  
                 

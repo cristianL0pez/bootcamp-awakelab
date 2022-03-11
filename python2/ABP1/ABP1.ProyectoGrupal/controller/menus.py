@@ -1,8 +1,4 @@
-import inquirer  # noqa
-import os
-import sys
-from pprint import pprint
-sys.path.append(os.path.realpath("."))
+import inquirer 
 '''
 def pause():
     key_input = [inquirer.Text(name = 'pause', message='presione enter para continuar!')]
@@ -47,7 +43,8 @@ opcion_cliente3 = '3. salir'
 ##########################################
 opcion_vendedor1 = '1. agregar vendedor'
 opcion_vendedor2 = '2. mostrar vendedores'
-opcion_vendedor3 = '3. salir'
+opcion_vendedor3 = '3. hacer venta'
+opcion_vendedor4 = '4. salir'
 ############################################
 opcion_producto1 = '1. agregar producto'
 opcion_producto2 = '2. mostrar productos'
@@ -65,7 +62,7 @@ menu_principal = [
     inquirer.List(
         "menu",
         message="elija una opcion",
-        choices=["1. clientes","2. productos","3. vendedor","4. salir"],
+        choices=["1. clientes","2. productos","3. vendedor","4. proveedor","5. salir"],
     ),
     
 ]
@@ -80,7 +77,7 @@ menu_vendedor = [
     inquirer.List(
         "vendedor",
         message="elija una opcion",
-        choices=["1. agregar vendedor","2. mostrar vendedores","3. salir"],
+        choices=["1. agregar vendedor","2. mostrar vendedores","3. hacer venta","4. salir"],
     ),
 
 ]

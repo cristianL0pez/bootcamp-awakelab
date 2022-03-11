@@ -6,6 +6,8 @@ from classes.Producto import *
 from classes.Productos import *
 from classes.Vendedor import *
 from classes.Vendedores import *
+from classes.Proveedor import *
+from classes.Proveedores import *
 
 ##########################################################################################################
 #                                 controller  clase cliente                                              #
@@ -45,12 +47,12 @@ def pedir_datos_producto():
     print('ingrese nuevo producto')
     nombre=input('ingrese nombre del producto: ')
     categoria = input('ingrese categoria del producto:  ')
-    proveedor = input('ingrese el nombre del proveedor')
     stock = input('ingrese el stock: ')
     valor_neto = input('ingrese el valor neto de venta: ')
-    producto = Producto(id,nombre,categoria,proveedor,stock,valor_neto)
+    id_proveedor,rut,nombre_legal,Razón_Social = pedir_datos()
+    producto = Producto(id,nombre,categoria,stock,valor_neto,id_proveedor,rut,nombre_legal,Razón_Social)
     productos = Productos()
-    productos.agregar_cliente(producto.obtener_cliente())
+    productos.agregar_producto(producto.obtener_producto())
 
 
 def mostrar_lista_producto():
@@ -87,3 +89,37 @@ def mostrar_lista_vendedor():
         print('===============================================================================================================================================')
         print(vendedor)
         print('===============================================================================================================================================')
+
+
+
+##########################################################################################################
+#                                 controller clase proveedor                                             #
+##########################################################################################################
+
+def pedir_datos():
+    id = uuid.uuid4()
+    id = str(id)
+    id = id[1:8]
+    print('ingrese nuevo proveedor')
+    rut=input('ingrese el rut del proveedor: ')
+    nombre_legal=input('ingrese nombre legal: ')
+    Razón_Social = input('ingrese la razon social:  ')
+    return(id,rut,nombre_legal,Razón_Social) 
+
+
+
+
+def pedir_datos_proveedor():
+    id,rut,nombre_legal,Razón_Social = pedir_datos()
+    proveedor = Proveedor(id,rut,nombre_legal,Razón_Social)
+    proveedores = Proveedores()
+    proveedores.agregar_proveedor(proveedor.obtener_proveedor())
+
+
+def mostrar_lista_proveedor():
+    proveedores = Proveedores()
+    for proveedor in proveedores.lista_proveedores:
+        print('===============================================================================================================================================')
+        print(proveedor)
+        print('===============================================================================================================================================')
+

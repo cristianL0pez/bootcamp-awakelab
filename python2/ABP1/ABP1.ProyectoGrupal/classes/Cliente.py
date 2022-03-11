@@ -1,3 +1,5 @@
+
+
 class Cliente:
     
 
@@ -12,6 +14,11 @@ class Cliente:
     
     def obtener_cliente(self):
         return self.__dict__
+
+    
+
+
+  
     
  
             

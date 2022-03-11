@@ -1,12 +1,13 @@
 class Proveedor:
     
 
-    def __init__(self,__id,nombre,correo,Fecha_Registro,__Saldo):
+    def __init__(self,__id,rut,nombre_legal,razon_social,pais='chile'):
         self.__id = __id
-        self.nombre = nombre
-        self.correo = correo
-        self.Fecha_Registro = Fecha_Registro
-        self.__Saldo = __Saldo
+        self.rut = rut
+        self.nombre_legal = nombre_legal
+        self.razon_social = razon_social
+        self.pais = pais
+        self.juridico=True
 
     
     
@@ -15,5 +16,4 @@ class Proveedor:
     
  
             
-    
-      
+   
