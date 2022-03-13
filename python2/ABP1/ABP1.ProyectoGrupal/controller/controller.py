@@ -9,6 +9,10 @@ from classes.Vendedores import *
 from classes.Proveedor import *
 from classes.Proveedores import *
 
+
+productos=Productos()
+
+
 ##########################################################################################################
 #                                 controller  clase cliente                                              #
 ##########################################################################################################
@@ -53,6 +57,7 @@ def pedir_datos_producto():
     producto = Producto(id,nombre,categoria,stock,valor_neto,id_proveedor,rut,nombre_legal,Razón_Social)
     productos = Productos()
     productos.agregar_producto(producto.obtener_producto())
+    
 
 
 def mostrar_lista_producto():
@@ -92,6 +97,10 @@ def mostrar_lista_vendedor():
 
 
 
+
+    
+
+
 ##########################################################################################################
 #                                 controller clase proveedor                                             #
 ##########################################################################################################
@@ -100,7 +109,9 @@ def pedir_datos():
     id = uuid.uuid4()
     id = str(id)
     id = id[1:8]
-    print('ingrese nuevo proveedor')
+    print('===========================================================================================')
+    print('ingrese proveedor')
+    print('===========================================================================================')
     rut=input('ingrese el rut del proveedor: ')
     nombre_legal=input('ingrese nombre legal: ')
     Razón_Social = input('ingrese la razon social:  ')

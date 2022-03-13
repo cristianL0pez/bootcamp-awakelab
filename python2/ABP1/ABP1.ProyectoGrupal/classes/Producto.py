@@ -12,9 +12,13 @@ class Producto:
         self.__Impuesto = 1.19
 
  
+    def descontar_producto(self,cantidad):
+         return self.stock - cantidad
+          
+    @classmethod
+    def descontar_producto(self,cantidad):
+         return self.stock + cantidad
         
-
-
         
         
     def obtener_producto(self):
@@ -33,5 +37,3 @@ class Producto:
         return self.proveedor.obtener_proveedor()
 
         
-    
-

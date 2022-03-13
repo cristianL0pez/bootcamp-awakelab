@@ -73,8 +73,8 @@ def main():  ##menu
                 pedir_datos_vendedor()
             elif vendedor_ == opcion_vendedor2:
                 mostrar_lista_vendedor()
-            if vendedor_ == opcion_vendedor3:
-                print('regresaras al menu principal')
+            elif vendedor_ == opcion_vendedor3:
+                 Vendedor.venta()
         elif opcion == opcion4:
             proveedor_ = inquirer.prompt(menu_proveedor)['proveedores']
             if proveedor_ == opcion_proveedor1:

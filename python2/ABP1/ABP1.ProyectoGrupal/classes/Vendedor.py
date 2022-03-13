@@ -16,13 +16,14 @@ class Vendedor:
         return self.__dict__
 
 
-        
+    @classmethod    
     def venta(self):
         id_cliente=input('ingrese el id del cliente! ')
         id_producto=input('ingrese el id del producto! ')
         cantidad=input('ingrese la cantidad de productos a vender')
+        Producto.descontar_producto(cantidad)
         
-
+    
 
 
 
