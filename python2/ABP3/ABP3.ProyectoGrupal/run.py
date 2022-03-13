@@ -15,3 +15,5 @@ Pasarela de pago, Bodega, Carrito, Facturas, Pedido, Categoría, empaque de caja
 Puede utilizar herramientas como https://app.diagrams.net/ , o la que estime conveniente para el
 desarrollo del diagrama de clases.
 '''
+# link al diagrama de clases 
+# https://lucid.app/lucidchart/f51fcaa5-5fce-4e1e-9af5-25ba435b1f71/edit?invitationId=inv_2f85c63b-4007-4248-b5b0-cbff33bc5055
