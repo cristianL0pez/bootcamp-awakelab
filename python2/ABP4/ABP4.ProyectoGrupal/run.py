@@ -21,3 +21,5 @@ BodegaPrincipal.
 Pensando en su tienda virtual, identifique casos en los que la técnica del polimorfismo solucionaría
 problemas de herencia de métodos y atributos..
 Definan la utilidad de MRO para determinados ejercicios de herencia. '''
+
+
