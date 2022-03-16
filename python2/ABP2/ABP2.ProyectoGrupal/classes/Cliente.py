@@ -24,14 +24,6 @@ class Cliente:
 
     
          
-         
-         
-        
-
-
-    
-
-    
 
 cliente1=Cliente('adjakshld','adjakshld','adjakshld','adjakshld','adjakshld')
 print(cliente1.obtener_cliente())
