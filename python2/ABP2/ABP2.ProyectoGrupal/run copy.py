@@ -84,14 +84,6 @@ def main():  ##menu
             elif proveedor_ == opcion_proveedor3:
                  print('regresaras al menu principal')
                  
-   
-            
-
- 
-                
-                 
-            
-                 
 main()
 
         
