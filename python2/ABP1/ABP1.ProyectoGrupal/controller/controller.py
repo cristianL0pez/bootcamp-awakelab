@@ -10,7 +10,7 @@ from classes.Proveedor import *
 from classes.Proveedores import *
 
 
-productos=Productos()
+productos=Productos()#instancia global para no tener que instanciar a cada rato 
 
 
 ##########################################################################################################

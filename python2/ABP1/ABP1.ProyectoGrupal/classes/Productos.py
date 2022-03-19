@@ -9,8 +9,8 @@ class Productos:
     
     def borrar_producto(self, id_):
         self.lista_productos.pop(id_)
-
-    def descontar_stock_producto(self, SKU,cantidad):
+    @classmethod
+    def descontar_stock_producto(self, SKU,cantidad):#en este metodo se crean las condicionales del la cantidad de productos
         for producto in self.lista_productos:
             if producto['SKU'] == SKU:
                 if producto['stock']>=cantidad:
