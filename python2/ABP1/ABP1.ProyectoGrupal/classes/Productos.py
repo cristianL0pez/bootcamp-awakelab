@@ -18,7 +18,7 @@ class Productos:
                 else:
                     print(f'Lo sentimos, no hay stock del producto: {producto["nombre"]}')
             else:
-                print('ese producto no existe en el inventario!')
+                print('ese producto no existe en el inventario!!')
 
                 
         
