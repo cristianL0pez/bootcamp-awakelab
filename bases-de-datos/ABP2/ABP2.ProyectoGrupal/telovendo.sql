@@ -20,3 +20,4 @@ SELECT comuna, COUNT(comuna) AS c , max(comuna) as t FROM Clientes GROUP BY comu
 
 
 SELECT nombre, precio from `Productos` WHERE stock = (SELECT MIN(stock) FROM `Productos`);
+
