@@ -1,0 +1,40 @@
+PARTE 1: EXPLORACIÓN DE MySQL
+1.- Defina los siguientes conceptos:
+- Base de datos
+¿Qué es una base de datos?
+Una base de datos es una recopilación organizada de información o datos estructurados, que normalmente se almacena de forma electrónica en un sistema informático. Normalmente, una base de datos está controlada por un sistema de gestión de bases de datos (DBMS).
+- Tabla
+una tabla de datos es una colección de datos organizados en filas y columnas.
+- Registro
+un registro (también llamado fila o tupla) representa un objeto único de datos implícitamente estructurados en una tabla
+- Columna
+una columna, campo o atributo es cada uno de los valores únicos (datos) que proporcionan la estructura según la cual se descomponen las filas (registros o tuplas) de una tabla
+- Llave primaria
+se llama clave primaria o llave primaria o clave principal a un campo o a una combinación de campos que identifica de forma única a cada fila de una tabla
+- Llave foránea
+una clave foránea o llave foránea o clave ajena (o Foreign Key FK) es una limitación referencial entre dos tablas.
+Respondan: ¿Cuál es la relación entre una llave primaria y una llave foránea?
+que una limita la tabla y la otra identifica una fila de la tabla
+
+2.- Para comenzar este proceso, en este primer ejercicio se solicitará instalar MySQL en un entorno local.
+Asumiendo que ya está instalado el aplicativo, se pide hacer lo siguiente:
+
+● En un archivo de texto indica el nombre de la tabla y la cantidad de registros que tiene.
+city = 4079, country= 239, countrylanguage= 100
+
+● Si se ordenan los países de acuerdo con su nombre ¿cuál sería el primero y cuál el último?
+primero= A CoruÃ±a (La CoruÃ±a)
+segundo=[San CristÃ³bal de] la Laguna
+● Tomando en cuenta todos los países de Sudamérica ¿cuántas ciudades existen entre todos ellos?
+● Considerando todos los idiomas declarados en la base, ¿cuántos idiomas corresponden a países de
+Sudamérica?
+ciudades-Sudamérica = 239 
+PARTE 2: CREAR UNA BASE DE DATOS
+4.- La socia de tu proyecto quiere realizar capacitaciones para los futuros usuarios de tu aplicación. Para
+no perder contacto con los futuros usuarios, te pide que elabores una base de datos con los asistentes a
+las capacitaciones.
+En tu ambiente local de desarrollo, crea una base de datos con un nombre personalizado según tu
+proyecto, la que tenga tres tablas:
+● OPERADORES: RUN (*), nombre, apellido, dirección, correo electrónico
+● USUARIOS: id coder (*), nombre, apellido, correo electrónico, teléfono
+● CAPACITACION: código curso (*), nombre, horario
