@@ -7,7 +7,7 @@ ALTER TABLE Clientes ADD COLUMN tlvcoins INT(11) UNSIGNED DEFAULT 0;
 UPDATE Clientes SET tlvcoins = 1000;
 --autocommit
 SELECT @@autocommit;
-set autocommit=0;
+
 
 
 --transaccion 1
@@ -21,7 +21,6 @@ SELECT * FROM Clientes WHERE clienteId=12;
 UPDATE Clientes SET tlvcoins = tlvcoins - 200 WHERE clienteId = 11;
 UPDATE Clientes SET tlvcoins = tlvcoins + 200 WHERE clienteId = 12;
 ROLLBACK;
-COMMIT;
 
 
 
@@ -36,7 +35,7 @@ SELECT * FROM Clientes WHERE clienteId=13;
 SELECT * FROM Clientes WHERE tlvcoins >= 1000;
 UPDATE Clientes SET tlvcoins = tlvcoins - 150 WHERE clienteId = 12;
 UPDATE Clientes SET tlvcoins = tlvcoins + 150 WHERE clienteId = 13;
-COMMIT;
+ROLLBACK;
 
 
 
