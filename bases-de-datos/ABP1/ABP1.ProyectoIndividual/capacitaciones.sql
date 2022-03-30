@@ -1,3 +1,6 @@
+
+--link teorico
+--https://docs.google.com/document/d/1Rh-717r8Q6x10Cqnk1RdJUGnLkED0_ZHE_2WlsDMLl0/edit?usp=sharing
 CREATE DATABASE capacitaciones;
 use capacitaciones;
 CREATE TABLE operadores(RUN INT AUTO_INCREMENT PRIMARY KEY,nombre VARCHAR(50) NOT NULL,apellido VARCHAR(50) NOT NULL,direccion VARCHAR(50) NOT NULL,correo VARCHAR(25) NOT NULL) ENGINE=INNODB;

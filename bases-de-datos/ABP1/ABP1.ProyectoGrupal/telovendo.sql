@@ -1,4 +1,5 @@
-
+--link teorico
+--https://docs.google.com/document/d/1YPstsep8HOEnF2jlAD7EjCj6XnxPP1pKCkhjTAbeF_Y/edit?usp=sharing
 CREATE TABLE Vendedores(RUN INT,nombre VARCHAR(50) NOT NULL,apellidos VARCHAR(50) NOT NULL,fecha_nacimiento date NOT NULL,seccion VARCHAR(50) NOT NULL ) ENGINE=INNODB;
 
 CREATE TABLE Productos(SKU INT,nombre VARCHAR(50) NOT NULL,categoria VARCHAR(50) NOT NULL,fabricante VARCHAR(30) NOT NULL,stock INT NOT NULL) ENGINE=INNODB;
