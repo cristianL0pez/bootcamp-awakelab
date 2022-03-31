@@ -33,8 +33,10 @@ SELECT MAX(salrario) FROM Vendedores;
 --Súmele el salario mínimo identificado al salario de todos los vendedores. 
 UPDATE Vendedores SET salrario = salrario + MIN(salrario);
 
---G. Elimine el producto más caro del inventario. 
-DELETE FROM Productos WHERE precio = (SELECT MAX(precio) FROM Productos);
+--G. Eliminar precio mas grande de productos
+DELETE Productos WHERE precio = (SELECT MAX(precio) FROM Productos);
+
+
 
 --Cree una tabla que contenga solo los clientes que han pagado más que el promedio. 
 
