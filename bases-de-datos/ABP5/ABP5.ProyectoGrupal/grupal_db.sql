@@ -34,6 +34,12 @@ INSERT INTO usuarios (id_usuario, nombre, apellido, contraseña, zona_horaria, g
 (107, 'Pedro', 'Lopez', '1234', @@SESSION.time_zone, 'Masculino', '123456789','correo@mail.com'),
 (108, 'Ana', 'Gonzalez', '1234', @@SESSION.time_zone, 'Femenino', '123456789','correo@mail.com');
 
+INSERT INTO usuarios (id_usuario, nombre, apellido, contraseña, zona_horaria, genero, telefono,correo) VALUES
+(109, 'Juan', 'lopez', '1234', @@SESSION.time_zone, 'Masculino', '123456789','correo@mail.com');
+
+INSERT INTO usuarios (id_usuario, nombre, apellido, contraseña, zona_horaria, genero, telefono,correo) VALUES
+(110, 'cristian', 'lopez', '1234', @@SESSION.time_zone, 'Masculino', '123456789','correo@mail.com');
+
 
 INSERT INTO ingreso (id_ingreso, id_usuario,fecha_hora_ingreso) VALUES
 (101, 101, NOW()),
@@ -49,11 +55,12 @@ INSERT INTO ingreso (id_ingreso, id_usuario,fecha_hora_ingreso) VALUES
 SET TIME_ZONE='-02:00';
 
 CREATE TABLE contactos
-    as (SELECT id_usuario,telefono,correo FROM usuarios)
-    
+    as (SELECT id_usuario,telefono,correo FROM usuarios);
 
-
-
+--actualizar los datos de clientes en contactos
+INSERT INTO contactos(id_usuario,telefono,correo) 
+SELECT id_usuario,telefono,correo FROM usuarios;
+select current_timestamp();
 
 
 
