@@ -53,7 +53,6 @@ CREATE TABLE productos (
 ); 
 
 
---crear tabla productos con relacion muchos a muchos
 CREATE TABLE productos_proveedores (
   id INT NOT NULL AUTO_INCREMENT,
   producto INT NOT NULL,
