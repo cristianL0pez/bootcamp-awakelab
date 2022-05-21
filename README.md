@@ -83,7 +83,7 @@ check Checks for PyUp Safety security vulnerabilities and against PEP 508 marker
 ```
 
 # 3. Ahora  instalaremos git/github
-### Instalar GIT en Windows
+### Instala GIT en Windows
 
 ![Instalar GIT en Windows](https://www.hostinger.es/tutoriales/wp-content/uploads/sites/7/2017/04/git-for-windows.png)
 
