@@ -1,4 +1,4 @@
-# bootcamp-awakelab
+# Bootcamp-awakelab
 ## instalacion de recursos
 ![](https://1.bp.blogspot.com/-EW9IYLNiqDA/Wv4r4sOGveI/AAAAAAAABUg/lL0B1cIEfCkrVROQXiApi92D6brGMLUPQCLcBGAs/s1600/visual-studio-code.jpg)🧑🏼‍💻
 
