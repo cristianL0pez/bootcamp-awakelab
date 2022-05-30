@@ -1,4 +1,4 @@
-# bootcamp-awakelab
+# Bootcamp-awakelab
 ## instalacion de recursos
 ![](https://1.bp.blogspot.com/-EW9IYLNiqDA/Wv4r4sOGveI/AAAAAAAABUg/lL0B1cIEfCkrVROQXiApi92D6brGMLUPQCLcBGAs/s1600/visual-studio-code.jpg)🧑🏼‍💻
 
@@ -24,10 +24,10 @@ Aca debería mostrarte algo así
 
 ```python
 python --version
-Python 3.8.3
+Python 3.8.5
 
 python -V
-Python 3.8.3
+Python 3.8.5
 ```
 
 
@@ -83,7 +83,7 @@ check Checks for PyUp Safety security vulnerabilities and against PEP 508 marker
 ```
 
 # 3. Ahora  instalaremos git/github
-### Instalar GIT en Windows
+### Instala GIT en Windows
 
 ![Instalar GIT en Windows](https://www.hostinger.es/tutoriales/wp-content/uploads/sites/7/2017/04/git-for-windows.png)
 
