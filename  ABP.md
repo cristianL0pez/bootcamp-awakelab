@@ -34,15 +34,15 @@
 
 | modulo 6  |     **Desarrollo de Aplicaciones Web con Python**     |
 |----------|:-------------:|
-|Construir aplicaciones Web empresariales utilizando el patrón MVC en el entorno de desarrollo Python/Django para dar solución a los requerimientos de la organización. |  Describir las características fundamentales del framework Django para el desarrollo de aplicaciones empresariales acorde al entorno Python.| Análisis y reflexión del proceso de resolución | se aprende sobre temas del framework Django tales como  views templates contenido dinámico formularios controles de seguridad etc. | 
+|Construir aplicaciones Web empresariales utilizando el patrón MVC en el entorno de desarrollo Python/Django para dar solución a los requerimientos de la organización. |  Describir las características fundamentales del framework Django para el desarrollo de aplicaciones empresariales acorde al entorno Python.|
+| Análisis y reflexión del proceso de resolución | se aprende sobre temas del framework Django tales como  views templates contenido dinámico formularios controles de seguridad etc. | 
 
 ### MODULO 7
 
 | modulo 7 |     **Desarrollo de Aplicaciones Web con Python**     |
 |----------|:-------------:|
 | Construir aplicaciones Web que manipulan datos en una base de datos SQL utilizando Python/Django y las componentes que el lenguaje dispone para su uso para dar solución a un requerimiento.|  Describir las características fundamentales de la integración del framework Django con bases de datos.| 
-| Análisis y reflexión del proceso de
-resolución |  en este modulo se usan los conocimientos  sobre  python, clases, modelos de bases de datos, migraciones etc. |
+| Análisis y reflexión del proceso de resolución |  en este modulo se usan los conocimientos  sobre  python, clases, modelos de bases de datos, migraciones etc. |
  
 
 ### MODULO 8
