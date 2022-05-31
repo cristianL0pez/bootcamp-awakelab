@@ -2,8 +2,8 @@
 ### MODULO 2
 
 | modulo 2 | 
-**Fundamentos del Desarrollo Front-End** |
-| aprendizaje referente a html, CSS , JavaScript | Reconocer los principales aspectos relacionados con el desarrollo web distinguiendo el rol y elementos fundamentales de Front-End. |
+**Fundamentos del Desarrollo Front-End**
+|| aprendizaje referente a html, CSS , JavaScript | Reconocer los principales aspectos relacionados con el desarrollo web distinguiendo el rol y elementos fundamentales de Front-End. |
 | Análisis y reflexión del proceso de resolución | creación de una pagina web básica usando los conocimientos aprendidos en el modulo 2 con HTML, CSS, JS. BOOTSTRAP, JQUERY Y GITHUB. |
 
 ### MODULO 3
