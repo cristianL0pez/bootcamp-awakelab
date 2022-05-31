@@ -2,10 +2,9 @@
 ### MODULO 2
 | modulo 2   |   **Fundamentos del Desarrollo Front-End**     | 
 |----------|:-------------:|
-| aprendizaje referente a html, CSS , JavaScript| Reconocer los principales aspectos relacionados con el desarrollo web distinguiendo el rol y elementos fundamentales de Front-End.|
-| Análisis y reflexión del proceso de
-resolución |   Análisis y reflexión del proceso de
-resolución  |  
+| aprendizaje referente a html, CSS , JavaScript| Reconocer los principales aspectos relacionados con el desarrollo web distinguiendo el rol y elementos fundamentales Front-End|
+| Análisis y reflexión del proceso de resolución |  creación de una pagina web básica usando los conocimientos aprendidos en el modulo 2 con HTML, CSS, JS. BOOTSTRAP, JQUERY Y GITHUB.
+ 
     
 ### MODULO 3
 | modulo 3  |   **Fundamentos de Programación en Python**  |
@@ -13,7 +12,7 @@ resolución  |
 |  Reconocer los conceptos fundamentales del lenguaje Python para la construcción de programas.| Codificar piezas de software de baja complejidad utilizando lenguaje Python para resolver problemáticas comunes de acuerdo a las necesidades de la industria. | 
 | Análisis y reflexión del proceso de
 resolución |    Análisis y reflexión del proceso de
-resolución  | 
+ 
 
 
 
@@ -49,7 +48,7 @@ resolución |   se aprende sobre temas del framework Django tales como  views te
 | Construir aplicaciones Web que manipulan datos en una base de datos SQL utilizando Python/Django y las componentes que el lenguaje dispone para su uso para dar solución a un requerimiento.|  Describir las características fundamentales de la integración del framework Django con bases de datos.| 
 | Análisis y reflexión del proceso de
 resolución |   Análisis y reflexión del proceso de
-resolución | 
+ 
 
 ### MODULO 8
 | modulo 8   |     **Desarrollo de Aplicaciones Web con Python**     |
