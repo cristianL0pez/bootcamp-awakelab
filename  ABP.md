@@ -27,8 +27,7 @@
 | modulo 5 |   **Fundamentos de Bases de Datos Relacionales**  |
 |----------|:-------------:|
 |Identificar las características, rol y elementos fundamentales de una base de datos relacional para la gestión de la información en una organización. |  Utilizar lenguaje estructurado de consultas SQL para la obtención de información que satisface los requerimientos planteados a partir de un modelo de datos dado. | 
-| Análisis y reflexión del proceso de
-resolución |    dados los aprendizaje de SQL se creo un diagrama de clases el cual se uso para el manejo de los datos a guardar Tambien se crearos diferentes bases de datos para este aprendizaje  | 
+| Análisis y reflexión del proceso deresolución |    dados los aprendizaje de SQL se creo un diagrama de clases el cual se uso para el manejo de los datos a guardar Tambien se crearos diferentes bases de datos para este aprendizaje  | 
 
 
 ### MODULO 6
