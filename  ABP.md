@@ -1,11 +1,3 @@
-# ABP evidencia modulo 8
-
-|  |
-| :---: |
-| Tags |  |
-| fecha |  |
-| terminado |  |
-| Related to Contenidos (Column) |  |
 
 ### MODULO 2
 
@@ -13,8 +5,7 @@
 | :---: |
 | modulo 2 | **Fundamentos del Desarrollo Front-End** |
 | aprendizaje referente a html, CSS , JavaScript | Reconocer los principales aspectos relacionados con el desarrollo web distinguiendo el rol y elementos fundamentales de Front-End. |
-| Análisis y reflexión del proceso de
-resolución | creación de una pagina web básica usando los conocimientos aprendidos en el modulo 2 con HTML, CSS, JS. BOOTSTRAP, JQUERY Y GITHUB. |
+| Análisis y reflexión del proceso de resolución | creación de una pagina web básica usando los conocimientos aprendidos en el modulo 2 con HTML, CSS, JS. BOOTSTRAP, JQUERY Y GITHUB. |
 
 ### MODULO 3
 
@@ -22,8 +13,7 @@ resolución | creación de una pagina web básica usando los conocimientos apren
 | :---: |
 | modulo 3 | **Fundamentos de Programación en Python** |
 | Reconocer los conceptos fundamentales del lenguaje Python para la construcción de programas. | Codificar piezas de software de baja complejidad utilizando lenguaje Python para resolver problemáticas comunes de acuerdo a las necesidades de la industria. |
-| Análisis y reflexión del proceso de
-resolución | en este modulo aprendimos sobre python  tipos de datos, sentencias básicas, condicionales etc.  solucionando una problemática propuesta |
+| Análisis y reflexión del proceso de resolución | en este modulo aprendimos sobre python  tipos de datos, sentencias básicas, condicionales etc.  solucionando una problemática propuesta |
 
 ### MODULO 4
 
