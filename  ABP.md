@@ -49,5 +49,4 @@
 | modulo 8   |     **Desarrollo de Aplicaciones Web con Python**     |
 |----------|:-------------:|
 | Construir aplicaciones Web que manipulan datos en una base de datos SQL utilizando Python/Django y las componentes que el lenguaje dispone para su uso para dar solución a un requerimiento. |  Describir las características fundamentales de la integración del framework Django con bases de datos. | 
-| Análisis y reflexión del proceso de
-resolución |    en este modulo se usan los conocimientos  sobre  python, clases, modelos de bases de datos, migraciones etc. también se empieza a crear el proyecto final con los aprendizajes del bootcamp en mi caso el proyecto elejido para dicho proyecto es una api desarrollada con django, fastapi, docker etc para mas informacion de el proyecto pueden verlo en mi github.   | 
+| Análisis y reflexión del proceso de resolución |    en este modulo se usan los conocimientos  sobre  python, clases, modelos de bases de datos, migraciones etc. también se empieza a crear el proyecto final con los aprendizajes del bootcamp en mi caso el proyecto elejido para dicho proyecto es una api desarrollada con django, fastapi, docker etc para mas informacion de el proyecto pueden verlo en mi github.   | 
