@@ -10,8 +10,7 @@
 | modulo 3  |   **Fundamentos de Programación en Python**  |
 |----------|:-------------:|
 |  Reconocer los conceptos fundamentales del lenguaje Python para la construcción de programas.| Codificar piezas de software de baja complejidad utilizando lenguaje Python para resolver problemáticas comunes de acuerdo a las necesidades de la industria. | 
-| Análisis y reflexión del proceso de
-resolución |    en este modulo aprendimos sobre python  tipos de datos, sentencias básicas, condicionales etc.  solucionando una problemática propuesta |
+| Análisis y reflexión del proceso de resolución |    en este modulo aprendimos sobre python  tipos de datos, sentencias básicas, condicionales etc.  solucionando una problemática propuesta |
  
 
 
