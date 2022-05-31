@@ -11,7 +11,7 @@
 |----------|:-------------:|
 |  Reconocer los conceptos fundamentales del lenguaje Python para la construcción de programas.| Codificar piezas de software de baja complejidad utilizando lenguaje Python para resolver problemáticas comunes de acuerdo a las necesidades de la industria. | 
 | Análisis y reflexión del proceso de
-resolución |    Análisis y reflexión del proceso de
+resolución |    en este modulo aprendimos sobre python  tipos de datos, sentencias básicas, condicionales etc.  solucionando una problemática propuesta |
  
 
 
@@ -20,9 +20,8 @@ resolución |    Análisis y reflexión del proceso de
 ### MODULO 4
 | modulo 4   |**Programación Avanzada en Python v2**|
 |----------|:-------------:|
-| codificar piezas de software de mediana complejidad en lenguaje Python utilizando paradigmas de orientación a objetos para resolver problemáticas de acuerdo a las necesidades de la organización. |  crear algoritmos capaces de emular un  ecommerce, con python clases, y algoritmos etc| 
-| Análisis y reflexión del proceso de
-resolución |  dado lo aprendido decidí usar  clases y algoritmos para crear usuarios productos y proveedores también se crearon diagramas de clases para dicho aprendizaje   | 
+| codificar piezas de software de mediana complejidad en lenguaje Python utilizando paradigmas de orientación a objetos para resolver problemáticas de acuerdo a las necesidades de la organización. |  crear algoritmos capaces de emular un  ecommerce, con python clases, y algoritmos etc | 
+| Análisis y reflexión del proceso de resolución |  dado lo aprendido decidí usar  clases y algoritmos para crear usuarios productos y proveedores también se crearon diagramas de clases para dicho aprendizaje   | 
 
 
 ### MODULO 5
@@ -39,7 +38,7 @@ resolución |    dados los aprendizaje de SQL se creo un diagrama de clases el c
 |----------|:-------------:|
 |Construir aplicaciones Web empresariales utilizando el patrón MVC en el entorno de desarrollo Python/Django para dar solución a los requerimientos de la organización. |  Describir las características fundamentales del framework Django para el desarrollo de aplicaciones empresariales acorde al entorno Python. | 
 | Análisis y reflexión del proceso de
-resolución |   se aprende sobre temas del framework Django tales como  views templates contenido dinámico formularios controles de seguridad etc.  | 
+resolución | se aprende sobre temas del framework Django tales como  views templates contenido dinámico formularios controles de seguridad etc. | 
 
 ### MODULO 7
 
@@ -47,7 +46,7 @@ resolución |   se aprende sobre temas del framework Django tales como  views te
 |----------|:-------------:|
 | Construir aplicaciones Web que manipulan datos en una base de datos SQL utilizando Python/Django y las componentes que el lenguaje dispone para su uso para dar solución a un requerimiento.|  Describir las características fundamentales de la integración del framework Django con bases de datos.| 
 | Análisis y reflexión del proceso de
-resolución |   Análisis y reflexión del proceso de
+resolución |  en este modulo se usan los conocimientos  sobre  python, clases, modelos de bases de datos, migraciones etc. |
  
 
 ### MODULO 8
