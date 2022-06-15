@@ -12,7 +12,7 @@
 ![enter image description here](https://www.codigonaranja.com/wp-content/uploads/2019/02/descargar-python.png)
 [video para instalacion](https://www.youtube.com/watch?v=m5i-Pq-z9w8&ab_channel=AlexRoelCode)
  
->Muy importante antes de instalar marcar el botón "add python 3.1 to Path" esto es para que python pueda ser invocado desde cualquier ruta o carpeta, todo lo demás se deja por defecto.
+>Muy importante antes de instalar marcar el boton "add python 3.1 to Path" esto es para que python pueda ser invocado desde cualquier ruta o carpeta, todo lo demás se deja por defecto.
 ![enter image description here](https://docs.blender.org/manual/es/2.80/_images/about_contribute_install_windows_installer.png)
 ### Ahora comprobáremos si se instalo correctamente en consola
 windows
