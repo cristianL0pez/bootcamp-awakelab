@@ -20,7 +20,7 @@ windows
 2. Type cmd
 3. Press OK or Enter
 
-Aca debería mostrarte algo así
+Debería mostrarte algo así
 
 ```python
 python --version
