@@ -7,7 +7,7 @@
 
 [pagina oficial visual studio code ](https://code.visualstudio.com/)
 [video para instalacion](https://www.youtube.com/watch?v=X_Z7d04x9-E&t=163s&ab_channel=Sistematts)
-# 2. descarga python3 desde la pagina oficial
+# 2.descarga python3 desde la pagina oficial
 [pagina oficial de python](https://www.python.org/)
 ![enter image description here](https://www.codigonaranja.com/wp-content/uploads/2019/02/descargar-python.png)
 [video para instalacion](https://www.youtube.com/watch?v=m5i-Pq-z9w8&ab_channel=AlexRoelCode)
